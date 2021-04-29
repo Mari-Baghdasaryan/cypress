@@ -8,6 +8,7 @@ describe('CommandsSuit', () => {
            .should('eq','/watch?v=nQWFzMvCfLE')
         cy.url()
             .should('include','/watch?v=nQWFzMvCfLE')
+            .should('include','/watch?v=nQWFzMvCfLE')
 
     })
 })
